@@ -71,7 +71,7 @@
 .web-development{
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    height: 1220px;
+    height: 1330px;
 }
 .web-development-content{
     padding: 10px 75px;
@@ -249,3 +249,32 @@ width: 275px;
     font-weight: 700;
 }
 /* ====footer end====== */
+.contact-secoundary{
+    border-radius: 16px;
+    height: 70px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.contact-secoundary-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.semi-contact-content{
+    color: rgb(13, 19, 33);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+}
+.semi-contact-icon a{text-decoration: none;}
+.semi-contact-icon i{
+    margin: 0 5px;
+    font-size: 17px;
+    color: white;
+    background: blue;
+    padding: 8px;
+    border-radius: 50%;
+}
+.git{
+    background: black !important;
+}
