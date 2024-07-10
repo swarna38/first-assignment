@@ -71,12 +71,12 @@
 .web-development{
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    height: 1200px;
+    height: 1220px;
 }
 .web-development-content{
     padding: 10px 75px;
 }
-.web-development-heading h1{
+.web-development-heading h1, .my-inspiration-heading h1{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 33px;
@@ -85,7 +85,7 @@
     letter-spacing: -1px;
     word-spacing: 5px;
 }
-.web-development-heading p{
+.web-development-heading p, .my-inspiration-heading p{
     opacity: 0.7;
     color: rgb(13, 19, 33);
     font-size: 16px;
@@ -93,7 +93,7 @@
     line-height: 24px;
     margin: 20px 0;
 }
-.web-development .coding-style, .creat-web-system, .change-world{
+.web-development .coding-style, .creat-web-system, .change-world, .inspiration-video{
     display: flex;
     border-radius: 16px;
     padding: 48px;
@@ -137,3 +137,15 @@
 width: 275px;
 }
 /* =====web development end===== */
+/* my inspiration start====== */
+.my-inspiration{
+    height: 620px;
+    margin: 90px auto;
+}
+.inspiration-video{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    height: 520px;    
+}
+/* my inspiration end====== */
