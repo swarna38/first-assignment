@@ -12,7 +12,7 @@
     width: 852px;
     height: 130px;
     text-align: center;
-    margin: 50px auto;
+    margin: 50px auto 40px auto;
 }
 /* =====hero section start====== */
 .hero-container{
@@ -76,7 +76,7 @@
 .web-development-content{
     padding: 10px 75px;
 }
-.web-development-heading h1, .my-inspiration-heading h1{
+.web-development-heading h1, .my-inspiration-heading h1, .current-target-heading h1{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 33px;
@@ -85,7 +85,7 @@
     letter-spacing: -1px;
     word-spacing: 5px;
 }
-.web-development-heading p, .my-inspiration-heading p{
+.web-development-heading p, .my-inspiration-heading p, .current-target-heading p{
     opacity: 0.7;
     color: rgb(13, 19, 33);
     font-size: 16px;
@@ -149,3 +149,52 @@ width: 275px;
     height: 520px;    
 }
 /* my inspiration end====== */
+ /* ====my current target start====  */
+.current-target{
+    margin-top: 100px;
+}
+.current-target-content{
+    height: 580px;
+}
+.current-target-main{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.current-child{
+    border-radius: 16px;
+    padding: 40px 30px;
+}
+.current-child h3{
+    color: rgb(13, 19, 33);
+    font-size: 21px;
+    font-weight: 800;
+    line-height: 36px;
+    margin: 15px 0;
+}
+.current-child p{
+    color: rgb(13, 19, 33);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7; 
+    margin-bottom: 10px;  
+}
+.current-child span{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration-line: underline;  
+    text-transform: capitalize;  
+}
+.current-child-1{
+    background: rgba(255, 76, 30, 0.05);
+}
+.current-child-2{
+    background: rgba(0, 76, 232, 0.05);
+}
+.current-child-3{
+    background: rgba(255, 223, 0, 0.05);
+}
+/* =====my current target end===== */
